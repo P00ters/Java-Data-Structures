@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"m":"JavaDataStructures","l":"JavaDS.Sorters"},{"m":"JavaDataStructures","l":"JavaDS.Trees"},{"m":"JavaDataStructures","l":"JavaDS.Validation"}]
