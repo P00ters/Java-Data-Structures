@@ -97,27 +97,6 @@ public class BinarySearchTree<T extends Comparable<T>> extends BinaryTree<T> imp
 		return value;
 	}
 
-	/**
-	 * Method for performing a search in the tree for a specified data element.
-	 * 
-	 * @return True if the data element is already contained within a node of
-	 * the tree and false if the data element is not contained within a node of 
-	 * the tree.
-	 */
-	@Override
-	public boolean Contains(T value) {
-		INode<T> on = this.GetRoot();
-		
-		while(on != null) {
-			if (on.GetData() == value)
-				return true;
-			else if (value.compareTo(value) > 0)
-				on = ((BinaryNode<T>) on).GetRight();
-			else
-				on = ((BinaryNode<T>) on).GetLeft();
-		}
-		
-		return false;
-	}
+	
 
 }

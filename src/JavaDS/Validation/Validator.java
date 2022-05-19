@@ -23,7 +23,7 @@ public class Validator {
 				System.out.print(data[i] + "\n");
 		}
 		
-		ITree<Integer> tree = new BinarySearchTree<Integer>();
+		ITree<Integer> tree = new AVLTree<Integer>();
 		
 		for (int i = 0; i < len; i++)
 			tree.AddNode(data[i]);

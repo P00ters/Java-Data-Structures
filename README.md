@@ -13,3 +13,4 @@ Currently contains the following:
    6. Selection Sort
 * Tree Structures
    1. Binary Search Tree
+   2. AVL Tree
